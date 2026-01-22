@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: http://dummy.git
+    repoURL: https://github.com/PyaePhyoKanto/my-gitops-repo.git
     targetRevision: HEAD
     path: charts/my-webapp
     helm:
