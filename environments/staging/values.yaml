@@ -1,5 +1,4 @@
 replicaCount: 1
 service:
   type: NodePort
-metadata:
-  tier: staging
+tier: staging

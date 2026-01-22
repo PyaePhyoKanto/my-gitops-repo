@@ -1,5 +1,4 @@
 replicaCount: 3
 service:
   type: LoadBalancer
-metadata:
-  tier: production
+tier: production
