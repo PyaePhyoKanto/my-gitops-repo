@@ -2,9 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: {{ .Chart.Name }}
-  tier: {{ .Values.tier }}
   labels:
     app: {{ .Chart.Name }}
+    tier: {{ .Values.tier }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
